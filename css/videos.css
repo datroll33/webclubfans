@@ -1,0 +1,41 @@
+*{
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#v1 {
+    margin-top: 2%;
+    border: solid 1px #000000;
+    margin-left: 1%;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #000000;
+    border-radius: 3%;
+}
+
+#v1:hover {
+    background: #318aac;
+    color: #fff !important;
+  }
+
+#v2 {
+    margin-top: 2%;
+    border: solid 1px #000000;
+    margin-left: 1%;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #000000;
+    border-radius: 3%;
+}
+
+#v2:hover {
+    background: #318aac;
+    color: #fff !important;
+  }

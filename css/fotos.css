@@ -1,0 +1,10 @@
+*{
+    float: center;
+    text-align: center;
+    align-content: center;
+}
+
+#taula{
+    border: grey solid 2px;
+    background-color: gray;
+}
